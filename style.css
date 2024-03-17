@@ -1,0 +1,195 @@
+body {
+    background-image: url(images/accueil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+/* En tete*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 3px yellow;
+    padding-bottom: 10px;
+}
+
+.logo img {
+    height: 100px;
+    width: 100px;
+    margin-right: 35px;
+}
+
+.logo {
+    display: flex;
+}
+
+h1 {
+    color: yellow;
+    font-size: 40px;
+}
+
+nav {
+    margin-top: 35px;
+}
+
+nav a {
+    text-decoration: none;
+    color: yellow;
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+nav a:hover {
+    border-bottom: solid 2px yellow;
+}
+
+/* main*/
+
+h2 {
+    color: yellow;
+    font-size: 70px;
+}
+
+.presentation {
+    margin-bottom: 200px;
+}
+
+.presentation img {
+    height: 200px;
+}
+
+.drapeau {
+    display: flex;
+}
+
+.drapeau p {
+    color: yellow;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.drapeau img {
+    margin-right: 15px;
+}
+
+
+.drapeau span img {
+    height: 200px;
+    margin-left: 15px;
+}
+
+.aeroport-nouakchott h2 {
+    font-size: 50px;
+}
+
+#aeroport {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.billet-avion h2 {
+    font-size: 40px;
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+
+.billeterie form{
+    border: 5px solid yellow;
+    background-color: yellow;
+}
+
+
+input {
+    height: 80px;
+    width: 100%;
+}
+
+h3 {
+    font-size: 30px;
+    color: yellow;
+}
+
+#villes h2 {
+    font-size: 50px;
+}
+
+
+.villes-principales {
+    display: flex;
+    margin-bottom: 80px;
+
+}
+
+.villes-principales img {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.villes-principales p {
+    font-size: 20px;
+    color: yellow;
+    font-weight: bold;
+}
+
+.nouakchott-ville {
+    margin-right: 25px;
+}
+
+.nouadhibou-ville {
+    margin-right: 25px;
+}
+
+.rosso-ville {
+    margin-right: 25px;
+}
+
+.zouerate-ville {
+    margin-right: 25px;
+}
+
+#photos h2 {
+    font-size: 50px;
+}
+
+.photos-mauritanie img {
+    height: 150px;
+    width: 75%;
+    object-fit: cover;
+}
+
+.photos-mauritanie {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+
+
+/*Footer*/
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    border-top: solid 3px yellow;
+
+}
+
+footer h3 {
+    font-size: 30px;
+    color: yellow;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+ul li {
+    list-style-type: none;
+    font-size: 20px;
+    color: yellowgreen;
+    padding-bottom: 15px;
+}
